@@ -1,0 +1,13 @@
+{
+  "name": "serverless-graphql-ts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "sam:build": "sam build",
+    "sam:local": "sam local start-api",
+    "sam:deploy": "sam deploy --guided"
+  }
+}
+
